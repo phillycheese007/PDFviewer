@@ -20,8 +20,15 @@
      <div class="button" id="contact">SF</div>
 </div>
 
+<script>
 
   
+  $('.button').click(function(){
+  var idToSRC = 'http://placehold.it/60x60/84a&text='+ this.id +'';
+   $('#picture').attr('src', idToSRC);
+});
+
+</script>
   
   
   
